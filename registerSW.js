@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/room-capture-app/sw.js', { scope: '/room-capture-app/' })})}
